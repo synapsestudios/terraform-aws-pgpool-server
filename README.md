@@ -1,13 +1,13 @@
 # AWS PgPool Server
 
-This module creates an AWS EC2 Instance to be used as a [PgPool](https://www.pgpool.net/mediawiki/index.php/Main_Page) server.
+This module creates an AWS EC2 Instance to be used as a [PgPool](https://www.pgpool.net/mediawiki/index.php/Main_Page) server. This requires a custom built AMI which is not provided.
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
-| terraform | ~> 0.12.6 |
+| terraform | ~> 0.12.29 |
 | aws | ~> 2.53 |
 
 ## Providers
